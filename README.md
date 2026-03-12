@@ -1,11 +1,11 @@
-# ⚡ Order Matching Engine (C++)
+#  Order Matching Engine (C++)
 
 A simplified **Limit Order Book Matching Engine** implemented in C++17.  
 This project simulates the **core logic of an exchange**: handling limit/market orders, order cancellations, and matching trades based on **price-time priority**.
 
 ---
 
-## 🚀 Features
+## Features
 - **Limit Orders**: Add buy/sell limit orders to the order book.
 - **Market Orders**: Immediately executed against the best available prices.
 - **Order Cancellation**: Cancel existing orders by ID (lazy deletion).
@@ -15,7 +15,7 @@ This project simulates the **core logic of an exchange**: handling limit/market 
 
 ---
 
-## 📊 Performance Benchmark
+## Performance Benchmark
 ```text
 Machine: MacBook Pro M1, 16GB RAM
 Command: ./matching
@@ -36,7 +36,7 @@ OrderMatchingEngine/
 │
 │── Makefile                  # Build automation
 │── README.md                 # Project documentation
-▶️ Getting Started
+ Getting Started
 
 Prerequisites
 	•	C++17 compatible compiler (g++, clang++)
@@ -53,7 +53,7 @@ make
 # Run executable
 ```text
 ./matching
-📖 Example Output
+Example Output
 ----- Order Book (Top 5) -----
 Bids:
   101 x 10 (ID 1)
@@ -64,7 +64,7 @@ Running stress test with 1000000 orders...
 Processed 1000000 orders in 152 ms
 ```
 
-🔮 Future Improvements
+Future Improvements
 	•	Multi-asset support (BTC, ETH, AAPL, etc.)
 	•	Advanced order types (Stop-loss, Iceberg, Fill-or-Kill)
 	•	Multi-threaded matching engine
@@ -72,8 +72,7 @@ Processed 1000000 orders in 152 ms
 	•	API layer (REST/WebSocket) for live trading simulation
 
 ⸻
-
-👨‍💻 Author
+ Author
 	•	Xiaochuan Li – MSc Financial Engineering
 	•	LinkedIn
 	•	GitHub
