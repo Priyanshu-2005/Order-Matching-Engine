@@ -72,12 +72,6 @@ Future Improvements
 	•	API layer (REST/WebSocket) for live trading simulation
 
 ⸻
- Author
-	•	Xiaochuan Li – MSc Financial Engineering
-	•	LinkedIn
-	•	GitHub
-
-⸻
 
 📜 License
 
